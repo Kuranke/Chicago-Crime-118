@@ -16,10 +16,10 @@
 
 ## Kuranke Team
 
-|<img src="" width="120px" height="120px">|<img src="https://www.facebook.com/photo.php?fbid=1334591110020420&set=a.111066299039580&type=3&theater" width="120px" height="120px">|<img src="" width="120px" height="120px">|<img src="" width="120px" height="120px">|
+|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|
 |:---:|:---:|:---:|:---:|
-|[pawanrat11](https://github.com/pawanrat11)|[ChanyaPong](https://github.com/ChanyaPong)|[]()|[]()|
-|Pawanrat<br>Mongkolkittham|Chanya<br>Chansri|<br>|<br>|
+|[pawanrat11](https://github.com/pawanrat11)|[ChanyaPong](https://github.com/ChanyaPong)|[th4it4y](https://github.com/th4it4y)|[Pawatchaya](https://github.com/Pawatchaya)|
+|<p>Pawanrat Mongkolkittham</p>:bear:|<p>Chanya Chansri</p>:wolf:|<p>Nitichai Kodchatean</p>:koala:|<p>Pawatchaya Kitsareekul</p>:rabbit: |
 
 ## Credits
 - [[View]](https://www.kaggle.com/currie32/crimes-in-chicago) Crimes in Chicago from Kaggle  
