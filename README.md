@@ -24,6 +24,3 @@
 
 ## Credits
 - [[View]](https://www.kaggle.com/currie32/crimes-in-chicago) Crimes in Chicago from Kaggle  
-
-Bootstrap  
-- [[View]](http://ianlunn.github.io/Hover/) Hover Effects by Ian Lunn *(hover.css)*  
