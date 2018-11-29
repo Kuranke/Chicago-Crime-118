@@ -3,8 +3,11 @@ Chicago-Crime-118 (PSIT Data Analysis Project)
 CSV Script
 """
 
-import csv
-
+import pandas as pd
+import numpy as np
+def main():
+    """ Manage File to new file """
+    title = ['Date', 'Type', 'Description', 'Location', 'Arrest', 'Domestic', 'Year']
     new_1, new_2, new_3, new_4 = [], [], [], []
     db_1 = np.array(pd.read_csv('Chicago_Crimes_2001_to_2004.csv', error_bad_lines=False, low_memory=False)).tolist()
     db_2 = np.array(pd.read_csv('Chicago_Crimes_2005_to_2007.csv', error_bad_lines=False, low_memory=False)).tolist()
