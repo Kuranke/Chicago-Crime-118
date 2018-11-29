@@ -4,6 +4,7 @@ CSV Script
 """
 
 import csv
+
 file = open('Chicago_Crimes_2005_to_2007.csv')
 file2 = open('Chicago_Crimes_2001_to_2004.csv')
 data = csv.reader(file)
@@ -14,3 +15,4 @@ table2 = [row for row in data2]
 table[:3]
 print(table)
 print(table2)
+
