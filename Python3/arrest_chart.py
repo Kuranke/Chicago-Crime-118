@@ -54,6 +54,8 @@ def chart(df_1, df_2, df_3, df_4):
     # creat_bar_chart_style
     amount_chart = pygal.Bar()  # creat_chart
     amount_chart.x_labels = map(str, range(2001, 2018))
+    amount_chart.x_title = 'Year'
+    amount_chart.y_title = 'Amount'
     # format_data
     arrest_list = []
     fail_list = []
@@ -62,9 +64,7 @@ def chart(df_1, df_2, df_3, df_4):
         fail_list.append({'value': num_list[i][1], 'label': '{:.2f}%'.format(100*num_list[i][1]/data_year[i])})
     amount_chart.add('Arrest', arrest_list)
     amount_chart.add('Fail', fail_list)
-    amount_chart.legend_at_bottom = True
-    # render_to_arrest.svg
-    amount_chart.render_to_file('arrest_chart.svg')
+
     # creat_every_yrs_arrest.svg
     arrest, fail = 0, 0
     for i in num_list:
@@ -73,5 +73,8 @@ def chart(df_1, df_2, df_3, df_4):
     chart = pygal.Pie()
     chart.add('Arrest', [{'value': arrest, 'label': '{:.2f}%'.format(100*arrest/sum(data_year))}])
     chart.add('Fail', [{'value': fail, 'label': '{:.2f}%'.format(100*fail/sum(data_year))}])
+
+    # render_to_arrest.svg
+    amount_chart.render_to_file('arrest_chart.svg')
     chart.render_to_file('every_yrs_arrest.svg')
 main()
