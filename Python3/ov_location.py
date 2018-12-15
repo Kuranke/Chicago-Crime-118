@@ -53,7 +53,7 @@ def creat_chart(new_dict):
     for i in new_dict:
         count += i[1]
     # creat_bar_chart_style
-    amount_chart = pygal.Pie()  # creat_chart
+    amount_chart = pygal.Pie()
     for i in range(10):
         amount_chart.add(new_dict[i][0], [{'value':new_dict[i][1], 'label': '{:.2f}%'.format(100*new_dict[i][1]/count)}])
     amount_chart.legend_at_bottom = True
