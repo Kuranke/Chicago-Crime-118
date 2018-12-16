@@ -18,7 +18,7 @@
 
 ## Kuranke Team
 
-|<img src="https://i.ytimg.com/vi/FKbbEDF_Doc/maxresdefault.jpg" " width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" 
+|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" 
 height="190px">|
 |:---:|:---:|:---:|:---:|
 |[pawanrat11](https://github.com/pawanrat11)|[ChanyaPong](https://github.com/ChanyaPong)|[th4it4y](https://github.com/th4it4y)|[Pawatchaya](https://github.com/Pawatchaya)|
