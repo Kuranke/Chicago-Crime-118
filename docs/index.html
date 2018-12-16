@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>Weather App Landing page</title>
+        <title>Chicago-Crime-118</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -61,7 +61,7 @@
                     <!-- Start Atribute Navigation -->
                     <div class="attr-nav">
                         <ul>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                          <li class="col-lg-12"><a href="#"><em class="fa fa-github"></em></a></li>
                         </ul>
                     </div>        
                     <!-- End Atribute Navigation -->
@@ -72,20 +72,19 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="#brand">
-                            <font face="Kanit" size="5" color="white" class="logo logo-display" alt=""><b>Kuranke</b></font>
-                            <font face="Kanit" size="5" color="#664433" class="logo logo-scrolled" alt=""><b>Kuranke</b></font>
-                        </a>
-                    </div>
+                        <a class="navbar-brand" href="#brand"> <font face="Kanit" size="5" color="white" class="logo logo-display"><strong>Kuranke</strong></font> <font face="Kanit" size="5" color="#664433" class="logo logo-scrolled"><strong>Kuranke</strong></font> </a></div>
                     <!-- End Header Navigation -->
 
                     <!-- navbar menu -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-center">
-                            <li><a href="#home"><font face="Kanit" size=4>หน้าหลัก</font></a></li>
-                            <li><a href="#features"><font face="Kanit" size=4>ภาพรวม</font></a></li>
-                            <li><a href="#reviews"><font face="Kanit" size=4>สถิติในแต่ละประเภท</font></a></li>
-                            <li><a href="#download"><font face="Kanit" size=4>สรุป</font></a></li>
+                          <li><a href="#home"><font face="Kanit" size="4">หน้าหลัก</font></a></li>
+                          <li><a href="#features"><font face="Kanit" size=4>ภาพรวม</font></a></li>
+                            <li><a href="#type"><font face="Kanit" size=4>ประเภทของอาชญากรรม</font></a></li>
+                            <li><a href="#time"><font face="Kanit" size=4>สถานที่และเวลา</font></a></li>
+							<li><a href="#arrest"><font face="Kanit" size=4>การจับกุม</font></a></li>
+							<li><a href="#reviews"><font face="Kanit" size=4>สรุป</font></a></li>
+							<li><a href="#download"><font face="Kanit" size=4>About</font></a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>   
@@ -97,9 +96,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="main_home">
-                            <div class="home_text">
-                                <h1 class="text-white">Chicago Crimes</h1>
+                            <div class="home_text col-lg-12">
+                              <h1 class="text-white text-center"><strong>Chicago Crime Analysis</strong><br>
+                              </h1>
                             </div>
+							
                         <div class="scrooldown">
                             <a href="#features"><i class="fa fa-chevron-down"></i></a>
                         </div>
@@ -115,30 +116,44 @@
                 <div class="container">
                     <div class="row">
                         <div class="main_features p-top-100 p-bottom-0">
-                            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-5">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-5 col-lg-offset-0 col-lg-12">
                                 <div class="head_title">
                                     <h2>ภาพรวม</h2>
                                     <center>
-                                        <h5>อธิบายถึงภาพรวมของอาชกรรมที่เกิดขึ้นในชิคาโก้</h5>
-                                        <embed class="mySlides" src="../weather-apps-landing-page-free-bootstrap-template/assets/svg/ov_amount.svg" height="600px" width="800px" />
-                                        <embed class="mySlides" src="../weather-apps-landing-page-free-bootstrap-template/assets/svg/ov_type.svg" height="600px" width="800px" />
+                                        <h5>มาดูกันว่าตั้งแต่ ปี 2001 ถึง 2017 เกิดอาชญากรรมใน Chicago ไปเท่าไร</h5>
+                                        <b><font color="white" size="5" face="Kanit">
+											<div class="swiper-container">
+                                    			<div class="swiper-wrapper">
+                                        			<div class="swiper-slide"><embed type="image/svg+xml" src="assets/svg/ov_amount.svg"></div>
+                                        			<div class="swiper-slide"><embed type="image/svg+xml" src="assets/svg/ov_type.svg"></div>
+													<div class="swiper-slide"><embed type="image/svg+xml" src="assets/svg/ov_location.svg"></div>
+                               </div>
+                                    <!-- If we need navigation buttons -->
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+									<div>
+									  <p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">จากกราฟ จะเห็นได้ถึงจำนวนเหตุการณ์อาชญากรรมใน Chicago ที่บันทึกได้ในแต่ละปีตั้งเเต่ ค.ศ. 2001 ถึง ค.ศ. 2017 ซึ่งสามารถบันทึกมาได้รวมทั้งสิ้น 7,941,282 เหตุการณ์ เเละจากกราฟจะเห็นได้ว่าประเภทของอาชญากรรมที่เกิดขึ้นมาที่สุด 10 อันดับ จากเหตุการณ์ทั้งหมดที่สามารถบันทึกมาได้ คือ</p>
+									  <ol class="list-type col-lg-offset-1 col-lg-12">
+										  <li>THEFT (การโจรกรรม) : 1,640,506 เหตุการณ์ (20.66%)</li>
+										<li>BATTERY (การทำร้ายร่างกาย) : 1,442,716 เหตุการณ์ (18.17%)</li>
+										<li>CRIMINAL DAMAGE (การกระทำความผิดทางอาญา) : 92,300 เหตุการณ์ (11.62%)</li>
+										<li>NARCOTICS (ยาเสพติด) : 885,431  เหตุการณ์ (11.15%)</li>
+										<li>OTHER OFFENSE (ความผิดอื่น ๆ) : 491,922  เหตุการณ์ (6.19%)</li>
+										<li>ASSAULT (การประทุษร้าย) : 481,661  เหตุการณ์ (6.07%)</li>
+										<li>BURGLARY (การลักทรัพย์ในอาคาร ) : 470,958 เหตุการณ์ (5.93%)
+										<li>MOTOR VEHICLE THEFT(การโจรกรรมยานยนต์) : 370,548 เหตุการณ์ (4.67%)</li>
+										<li>ROBBERY(การลักทรัพย์) : 300,453 เหตุการณ์ (3.78%)</li>
+
+										<p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">เเละจากกราฟเห็นได้ว่า อันดับสถานที่ที่เกิดอาชญากรรมมากที่สุด ซึ่งจะเห็นได้ว่าอาชญากรรมส่วนใหญ่เกิดขึ้นบน “STREET” เป็นอันดับที่หนึ่ง</p>
+
+									</div>
+											
+										</font></b>
                                     </center>
                                 </div>
                             </div>
                             
-
-                            <div class="col-md-4">
-                                <div class="features_item sm-m-top-30">
-                                    <div class="f_item_icon">
-                                        <i class="icon icon-diamond6"></i>
-                                    </div>
-                                    <div class="f_item_text">
-                                        <h3>Usability</h3>
-                                        <p>Sometimes the simplest things are the hardest to find. 
-                                            So we created a new line for everyday life</p>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="col-md-4">
                                 <div class="features_item sm-m-top-30">
                                     <div class="f_item_icon">
@@ -168,192 +183,119 @@
                 </div><!-- End off container -->
             </section><!-- End off Featured Section-->
 
-
-            <!--The next of Featured Section-->>
-            <section>
+			<!--Type Section-->
+            <section id="type" class="type">
                 <div class="container">
                     <div class="row">
-                        <div class="main_drag roomy-50">
-                            <div class="col-md-12">
-                                <div class="swiper-container">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide" style="background-image:url(assets/images/drag1.png)"></div>
-                                        <div class="swiper-slide" style="background-image:url(assets/images/drag3.png)"></div>
-                                        <div class="swiper-slide" style="background-image:url(assets/images/drag2.png)"></div>
-                                    </div>
+                        <div class="main_features p-top-100 p-bottom-0">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-5 col-lg-offset-0 col-lg-12">
+                                <div class="head_title">
+                                    <h2>ประเภทของอาชญากรรม</h2>
+                                    <center>
+                                      <h5>มาดูว่าแต่ละปีเกิดอาชญากรรมประเภทไหนบ้าง</h5>
+                                      <b><font color="white" size="5" face="Kanit"><br><br>
+                                        			<div class="swiper-slide"><embed type="image/svg+xml" src="assets/svg/type_chart.svg"></div>
+                                  
+                               		<br><br>
+									<div>
+									  <p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">จากกราฟ จะเห็นได้ถึงจำนวนเหตุการณ์อาชญากรรมใน Chicago ที่บันทึกได้ในแต่ละปีตั้งเเต่ ค.ศ. 2001 ถึง ค.ศ. 2017 ซึ่งสามารถบันทึกมาได้รวมทั้งสิ้น 7,941,282 เหตุการณ์ เเละจากกราฟจะเห็นได้ว่าประเภทของอาชญากรรมที่เกิดขึ้นมาที่สุด 10 อันดับ จากเหตุการณ์ทั้งหมดที่สามารถบันทึกมาได้ คือ</p>
+
+										<p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">เเละจากกราฟเห็นได้ว่า อันดับสถานที่ที่เกิดอาชญากรรมมากที่สุด ซึ่งจะเห็นได้ว่าอาชญากรรมส่วนใหญ่เกิดขึ้นบน “STREET” เป็นอันดับที่หนึ่ง</p>
+
+									</div>
+											
+										</font></b>
+                                    </center>
+ 
+                    </div><!-- End off row -->
+            </section><!-- End off Type Section-->
+
+			<!--Time Section-->
+            <section id="time" class="type">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_features p-top-100 p-bottom-0">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-5 col-lg-offset-0 col-lg-12">
+                                <div class="head_title">
+                                    <h2>สถานที่และเวลา</h2>
+                                    <center>
+                                        <h5>มาดู 10 อันดับ อาชญากรรมว่าเกิดที่ไหน และช่วงเวลาใด</h5>
+                                        <b><font color="white" size="5" face="Kanit"><br><br>
+                                      <div class="swiper-container">
+                                    		<div class="swiper-wrapper">
+                                        			<div class="swiper-slide"><embed type="image/svg+xml" src="assets/svg/location_chart.svg"></div>
+                                        			<div class="swiper-slide"><embed type="image/svg+xml" src="assets/svg/time_chart.svg"></div>
+
+                               </div>
                                     <!-- If we need navigation buttons -->
                                     <div class="swiper-button-prev"></div>
                                     <div class="swiper-button-next"></div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                               		<br><br>
+									<div>
+									  <p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">จากกราฟ จะเห็นได้ถึงจำนวนเหตุการณ์อาชญากรรมใน Chicago ที่บันทึกได้ในแต่ละปีตั้งเเต่ ค.ศ. 2001 ถึง ค.ศ. 2017 ซึ่งสามารถบันทึกมาได้รวมทั้งสิ้น 7,941,282 เหตุการณ์ เเละจากกราฟจะเห็นได้ว่าประเภทของอาชญากรรมที่เกิดขึ้นมาที่สุด 10 อันดับ จากเหตุการณ์ทั้งหมดที่สามารถบันทึกมาได้ คือ</p>
 
+										<p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">เเละจากกราฟเห็นได้ว่า อันดับสถานที่ที่เกิดอาชญากรรมมากที่สุด ซึ่งจะเห็นได้ว่าอาชญากรรมส่วนใหญ่เกิดขึ้นบน “STREET” เป็นอันดับที่หนึ่ง</p>
 
-
-            <!--screen short section-->
-
-            <section id="screen_area" class="screen_area">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_screen">
-                            <div class="col-md-8 col-md-offset-2 col-sm-12">
-                                <div class="head_title text-center">
-                                    <h2>Screenshots</h2>
-                                    <h5>The brightest images</h5>
-                                </div>
-                            </div>
-
-                            <!-- Screen01-->
-                            <div class="screen01 roomy-50">
-                                <div class="col-md-6">
-                                    <div class="screen01_img text-center">
-                                        <div class="attr_cloudy text-white">Cloudy</div>
-                                        <div class="attr_deg2 text-white">15 &deg;</div>
-                                        <img src="assets/images/screen01.png" alt="" />
-                                        <h1 class="cloudy">Cloudy</h1>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="screen01_content m-top-100">
-                                        <div class="screen01_content_img ">
-                                            <img src="assets/images/cloud1.png" alt="" />
-                                        </div>
-                                        <h2 class="m-top-40">When the clouds</h2>
-                                        <p class="m-top-20">Variable information on the air humidity, the feeling of the weather, 
-                                            and the ability to share this with your friends</p>
-
-                                        <ul class="list-inline m-top-50">
-                                            <li class="text-center">95%</li>
-                                            <li class="text-center">9 &deg; </li>
-                                            <li class="text-center">Rainy</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div><!--End off Screen01-->
-
-                            <!-- Screen02-->
-                            <div class="screen02 roomy-50 m-top-100">
-                                <div class="col-md-6 col-md-push-6">
-                                    <div class="screen02_img text-center">
-                                        <div class="attr_sun2 text-white">Cloudy</div>
-                                        <div class="attr_deg3 text-white">25 &deg;</div>
-                                        <img src="assets/images/screen02.png" alt="" />
-                                        <h1 class="sunny">Sunny</h1>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-md-pull-6">
-                                    <div class="screen02_content m-top-100">
-                                        <div class="screen02_content_img ">
-                                            <img src="assets/images/sun1.png" alt="" />
-                                        </div>
-                                        <h2 class="m-top-40">When the clouds</h2>
-                                        <p class="m-top-20">Sometimes the simplest things are the hardest to find. 
-                                            So we created a new line for everyday life. Sometimes the simplest things</p>
-
-                                        <ul class="list-inline m-top-50">
-                                            <li class="text-center">95%</li>
-                                            <li class="text-center">9 &deg; </li>
-                                            <li class="text-center">Rainy</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div><!--End off Screen02-->
-
-                            <!-- Screen03-->
-                            <div class="screen03 roomy-50 m-top-100">
-                                <div class="col-md-6">
-                                    <div class="screen03_img text-center">
-                                        <div class="attr_rainy2 text-white">Rainy</div>
-                                        <div class="attr_deg4 text-white">9 &deg;</div>
-                                        <img src="assets/images/screen03.png" alt="" />
-                                        <h1 class="rainy">Rainy</h1>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="screen03_content m-top-100">
-                                        <div class="screen03_content_img ">
-                                            <img src="assets/images/rainy1.png" alt="" />
-                                        </div>
-                                        <h2 class="m-top-40">When the rain</h2>
-                                        <p class="m-top-20">Sometimes the simplest things are the hardest to find. 
-                                            So we created a new line for everyday life. 
-                                            Sometimes the simplest things</p>
-
-                                        <ul class="list-inline m-top-50">
-                                            <li class="text-center">95%</li>
-                                            <li class="text-center">9 &deg; </li>
-                                            <li class="text-center">Rainy</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div><!--End off Screen02-->
-
-
-                        </div>
-                    </div><!--End off row-->
-                </div><!--End off container-->
-            </section><!--End off Screen01 Area Section -->
-
-
-
-            <!--People Section-->
-            <section id="reviews" class="reviews m-top-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_reviews">
-                            <div class="col-md-8 col-md-offset-2 col-sm-12">
-                                <div class="head_title text-center">
-                                    <h2>What reviews are saying</h2>
-                                    <h5>Reviews</h5>
-                                </div>
-                            </div>
-
-                            <div class="reviews_content">
-                                <div class="col-md-6">
-                                    <div class="reviews_item m-top-40">
-                                        <div class="reviews_item_icon pull-left">“</div>
-                                        <h3>What art offers is space - a certain breathing room for the spirit. </h3>
-                                        <h5>John Updike</h5>
-                                        <div class="reviews_item_icon1 pull-right text-right">“</div>
-                                    </div>
-                                </div><!-- End off col-md-6 -->
-
-                                <div class="col-md-6">
-                                    <div class="reviews_item m-top-40">
-                                        <div class="reviews_item_icon pull-left">“</div>
-                                        <h3>We do not see nature with our eyes,
-                                            but with our understandings and our hearts.</h3>
-                                        <h5>William Hazlitt</h5>
-                                        <div class="reviews_item_icon1 pull-right text-right">“</div>
-                                    </div>
-                                </div><!-- End off col-md-6 -->
-                                <div class="col-md-6">
-                                    <div class="reviews_item m-top-40">
-                                        <div class="reviews_item_icon pull-left">“</div>
-                                        <h3>The only courage that matters is the kind 
-                                            that gets you from one moment to the next.</h3>
-                                        <h5>Mignon McLaughlin</h5>
-                                        <div class="reviews_item_icon1 pull-right text-right">“</div>
-                                    </div>
-                                </div><!-- End off col-md-6 -->
-                                <div class="col-md-6">
-                                    <div class="reviews_item m-top-40">
-                                        <div class="reviews_item_icon pull-left">“</div>
-                                        <h3>No man has a good enough memory to be a successful liar. </h3>
-                                        <h5>Abraham Lincoln</h5>
-                                        <div class="reviews_item_icon1 pull-right text-right">“</div>
-                                    </div>
-                                </div><!-- End off col-md-6 -->
-
-                            </div>
-                        </div><!-- End off Main People -->
+									</div>
+											
+										</font></b>
+                                    </center>
+ 
                     </div><!-- End off row -->
-                </div><!-- End off container -->
-            </section><!-- End off People Section-->
+            </section><!-- End off Time Section-->
+			<!--Arrest Section-->
+            <section id="arrest" class="type">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_features p-top-100 p-bottom-0">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-5 col-lg-offset-0 col-lg-12">
+                                <div class="head_title">
+                                    <h2>การจับกุม</h2>
+                                    <center>
+                                      <h5>มาดูกันว่าเกิดเหตุอาชาญกรรมขนาดนี้ แล้วมีการจับกุมได้รึเปล่า </h5>
+                                      <b><font color="white" size="5" face="Kanit"><br><br>
+                                        			<div class="swiper-slide"><embed type="image/svg+xml" src="assets/svg/arrest_chart.svg"></div>
+                                  
+                               		<br><br>
+									<div>
+									  <p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">จากกราฟ จะเห็นได้ถึงจำนวนเหตุการณ์อาชญากรรมใน Chicago ที่บันทึกได้ในแต่ละปีตั้งเเต่ ค.ศ. 2001 ถึง ค.ศ. 2017 ซึ่งสามารถบันทึกมาได้รวมทั้งสิ้น 7,941,282 เหตุการณ์ เเละจากกราฟจะเห็นได้ว่าประเภทของอาชญากรรมที่เกิดขึ้นมาที่สุด 10 อันดับ จากเหตุการณ์ทั้งหมดที่สามารถบันทึกมาได้ คือ</p>
 
+										<p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">เเละจากกราฟเห็นได้ว่า อันดับสถานที่ที่เกิดอาชญากรรมมากที่สุด ซึ่งจะเห็นได้ว่าอาชญากรรมส่วนใหญ่เกิดขึ้นบน “STREET” เป็นอันดับที่หนึ่ง</p>
+
+									</div>
+											
+										</font></b>
+                                    </center>
+ 
+                    </div><!-- End off row -->
+            </section><!-- End off Arrest Section-->
+
+        	<!--Sum Section-->
+            <section id="reviews" class="type">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_features p-top-100 p-bottom-0">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-5 col-lg-offset-0 col-lg-12">
+                                <div class="head_title">
+                                    <h2>สรุป</h2>
+                                    <center>
+                                        <h5>อธิบายถึงภาพรวมของอาชกรรมที่เกิดขึ้นในชิคาโก้</h5>
+
+									<div>
+									  <p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">จากกราฟ จะเห็นได้ถึงจำนวนเหตุการณ์อาชญากรรมใน Chicago ที่บันทึกได้ในแต่ละปีตั้งเเต่ ค.ศ. 2001 ถึง ค.ศ. 2017 ซึ่งสามารถบันทึกมาได้รวมทั้งสิ้น 7,941,282 เหตุการณ์ เเละจากกราฟจะเห็นได้ว่าประเภทของอาชญากรรมที่เกิดขึ้นมาที่สุด 10 อันดับ จากเหตุการณ์ทั้งหมดที่สามารถบันทึกมาได้ คือ</p>
+
+										<p class="ov-text col-lg-offset-0 col-lg-12" style="text-indent: 2.5em;">เเละจากกราฟเห็นได้ว่า อันดับสถานที่ที่เกิดอาชญากรรมมากที่สุด ซึ่งจะเห็นได้ว่าอาชญากรรมส่วนใหญ่เกิดขึ้นบน “STREET” เป็นอันดับที่หนึ่ง</p>
+
+									</div>
+											
+										</font></b>
+                                    </center>
+ 
+                    </div><!-- End off row -->
+            </section><!-- End off Sum Section-->
+
+                               
 
 
             <!--App Download Section-->
@@ -371,13 +313,13 @@
 
                                     <div class="download_app m-top-30">
                                         <a href=""><img src="assets/images/appstor.png" alt="" /></a>
-                                        <a href=""><img src="assets/images/googleplay.png" alt="" /></a>
+                                        <img src="assets/images/googleplay.png" alt="" class="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="download_item m-top-70">
-                                    <img class="app_right" src="assets/images/appdownload1.png" alt="" />
+                                   
                                 </div>
                             </div>
                         </div>
@@ -400,9 +342,7 @@
 
                                     <!-- Start Atribute Navigation -->
                                     <div class="attr-nav">
-                                        <ul>
-                                            <li><a href="#"><i class="fa fa-github"></i></a></li>
-                                        </ul>
+
                                     </div>        
                                     <!-- End Atribute Navigation -->
 
@@ -412,32 +352,31 @@
                                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-footer">
                                             <i class="fa fa-bars"></i>
                                         </button>
-                                        <a class="navbar-brand" href="#brand"><img src="assets/images/footer-logo.png" class="logo" alt=""></a>
                                     </div>
                                     <!-- End Header Navigation -->
 
                                     <!-- navbar menu -->
                                     <div class="collapse navbar-collapse" id="navbar-footer">
                                         <ul class="nav navbar-nav navbar-center">
-                                            <li><a href="#home">Home</a></li>                    
-                                            <li><a href="#features">Features</a></li>
-                                            <li><a href="#reviews">Reviews</a></li>
-                                            <li><a href="#download">Download</a></li>
+       
                                         </ul>
                                     </div><!-- /.navbar-collapse -->
                                 </div>   
                             </nav>
                         </div>
-                        <div class="divider"></div>
+                        
                         <div class="col-md-12">
+							
                             <div class="main_footer text-center p-top-40 p-bottom-30">
-                                <p class="wow fadeInRight" data-wow-duration="1s">
-                                    Made with 
-                                    <i class="fa fa-heart"></i>
-                                    by 
-                                    <a target="_blank" href="http://bootstrapthemes.co">Bootstrap Themes</a> 
-                                    2016. All Rights Reserved
+								<a target="_blank" href="https://github.com/Kuranke/Chicago-Crime-118"><em class="fa fa-github"></em></a><br>
+                              <p class="wow fadeInRight  col-lg-12 credit" data-wow-duration="1s">
+									Data From  
+								  <a target="_blank" href="https://www.kaggle.com/currie32/crimes-in-chicago">Currie32</a><br> 
+								  Template From
+                                    <a target="_blank" href="http://bootstrapthemes.co">Bootstrap Themes</a>
+                               
                                 </p>
+                                <p class="col-lg-12">&nbsp;</p>
                             </div>
                         </div>
                     </div>
