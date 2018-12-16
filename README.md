@@ -1,10 +1,11 @@
 # Chicago-Crime-118 :fire:
-  โปรเจคนี้เป็นส่วนหนึ่งของวิชา Problem Solving in Information Technology (PSIT) คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
-  เป็นโปรเจค Data Analysis เกี่ยวกับหาอัตราการเกิดเหตุอาชกรต่างในชิคาโก้ ระหว่างปี 2011-2016 (?)
+  โครงงานนี้เป็นส่วนหนึ่งของวิชา Problem Solving in Information Technology (PSIT) <br>คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 
+
+
 
 ## Information
 
-**Project Site:**
+**Project Site:** https://kuranke.github.io/Chicago-Crime-118/
 
 **Last Updated:** 
 
@@ -17,7 +18,8 @@
 
 ## Kuranke Team
 
-|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|
+|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" 
+height="190px">|
 |:---:|:---:|:---:|:---:|
 |[pawanrat11](https://github.com/pawanrat11)|[ChanyaPong](https://github.com/ChanyaPong)|[th4it4y](https://github.com/th4it4y)|[Pawatchaya](https://github.com/Pawatchaya)|
 |<p>Pawanrat Mongkolkittham</p>:bear:|<p>Chanya Chansri</p>:wolf:|<p>Nitichai Kodchatean</p>:koala:|<p>Pawatchaya Kitsareekul</p>:rabbit: |
