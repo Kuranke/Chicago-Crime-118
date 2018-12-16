@@ -4,7 +4,7 @@
 
 ## Information
 
-**Project Site:**
+**Project Site:** https://kuranke.github.io/Chicago-Crime-118/
 
 **Last Updated:** 
 
