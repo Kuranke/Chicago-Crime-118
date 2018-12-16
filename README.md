@@ -18,7 +18,8 @@
 
 ## Kuranke Team
 
-|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|
+|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" 
+height="190px">|
 |:---:|:---:|:---:|:---:|
 |[pawanrat11](https://github.com/pawanrat11)|[ChanyaPong](https://github.com/ChanyaPong)|[th4it4y](https://github.com/th4it4y)|[Pawatchaya](https://github.com/Pawatchaya)|
 |<p>Pawanrat Mongkolkittham</p>:bear:|<p>Chanya Chansri</p>:wolf:|<p>Nitichai Kodchatean</p>:koala:|<p>Pawatchaya Kitsareekul</p>:rabbit: |
