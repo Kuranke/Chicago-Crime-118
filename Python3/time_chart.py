@@ -101,6 +101,7 @@ def creat_chart(new_dict):
     chart = pygal.StackedBar()
     mor, noon, even, night = [], [], [], []
     chart.x_labels = map(lambda x: x, [new_dict[i][0] for i in range(10)])
+    chart.title = 'Duration'
     chart.x_title = 'Type'
     chart.y_title = 'Number of events'
     for i in range(10):

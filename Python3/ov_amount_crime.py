@@ -65,6 +65,7 @@ def creat_chart(df_1, df_2, df_3, df_4):
     # creat_bar_chart_style
     amount_chart = pygal.Bar()  # creat_chart
     sum_crime = sum(list_year)  # total_crime_record
+    amount_chart.title = 'Overview Number of crime'
     # adding_value
     amount_chart.add('2001', [{'value':list_year[0], 'label': '{:.2f}%'.format(100*list_year[0]/sum_crime)}]).add('2002', [{'value':list_year[1], 'label': '{:.2f}%'.format(100*list_year[1]/sum_crime)}])\
     .add('2003', [{'value':list_year[2], 'label': '{:.2f}%'.format(100*list_year[2]/sum_crime)}]).add('2004', [{'value':list_year[3], 'label': '{:.2f}%'.format(100*list_year[3]/sum_crime)}])\

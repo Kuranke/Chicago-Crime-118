@@ -66,6 +66,7 @@ def creat_chart(list_type, list_num, location_dict):
     """ Creat Chart """
     chart = pygal.StackedBar()
     chart.x_labels = map(str, list_type)
+    chart.title = 'Location'
     chart.x_title = 'Type'
     chart.y_title = 'Number of events'
     # format_data
