@@ -6,9 +6,9 @@
 
 Website: https://kuranke.github.io/Chicago-Crime-118/
 
-Last Updated: 
+Last Updated: 17/12/18
 
-Project Status: 
+Project Status: Complete
 
 Main Language: Python3  
 
