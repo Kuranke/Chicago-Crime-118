@@ -4,25 +4,23 @@
 
 ## Information :page_facing_up:
 
-*Project Site:* https://kuranke.github.io/Chicago-Crime-118/
+Website: https://kuranke.github.io/Chicago-Crime-118/
 
-*Last Updated:* 
+Last Updated: 
 
-*Project Status:* 
+Project Status: 
 
-*Main Language:* Python3  
+Main Language: Python3  
 
-*Other Language:* HTML, CSS
+Other Language: HTML, CSS
 
 
 ## Kuranke Team :sunny:
 
-|<img src="" width="190px" height="190px">|<img src="" width="190px" height="190px">|<img src="" width="190px" 
-height="190px">|<img src="" width="190px" height="190px">|
-
+|<img src="docs/assets/images/team/1.png" width="190px" height="190px">|<img src="docs/assets/images/team/2.png" width="190px" height="190px">|<img src="docs/assets/images/team/3.jpg" width="190px" height="190px">|<img src="docs/assets/images/team/4.jpg" width="190px" height="190px">|
 |:---:|:---:|:---:|:---:|
 |[pawanrat11](https://github.com/pawanrat11)|[ChanyaPong](https://github.com/ChanyaPong)|[th4it4y](https://github.com/th4it4y)|[Pawatchaya](https://github.com/Pawatchaya)|
-|<p>Pawanrat Mongkolkittham</p>:bear:|<p>Chanya Chansri</p>:wolf:|<p>Nitichai Kodchatean</p>:koala:|<p>Pawatchaya Kitsareekul</p>:rabbit:|
+|<p>Pawanrat Mongkolkittham</p>:bear:|<p>Chanya Chansri</p>:wolf:|<p>Nitichai Kodchatean</p>:koala:|<p>Pawatchaya Kitsareekul</p>:rabbit: |
 
 
 ## Credits 
