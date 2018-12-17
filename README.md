@@ -2,18 +2,21 @@
   โครงงานนี้เป็นส่วนหนึ่งของวิชา Problem Solving in Information Technology (PSIT) <br>คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง<br>โครงงานนี้ทำเกี่ยวกับการวิเคราะห์ข้อมูลในหัวข้ออาชญากรรมที่เกิดขึ้นใน Chicago เพื่อวิเคราะห์เกี่ยวกับอาชญากรรมที่เกิดขึนใน Chicago ตั้งแต่ปี 2001 - 2017
 
 
-## Information :page_facing_up:
+# Information :page_facing_up:
 
-Website: https://kuranke.github.io/Chicago-Crime-118/
+*Start* : 16th November 2018
 
-Last Updated: 17/12/18
+*Update* : 17th December 2018
 
-Project Status: Complete
+*Status* : Complete
 
-Main Language: Python3  
+# *Tools* :wrench:
 
-Other Language: HTML, CSS
+*Main Language* : :snake:[Python](https://www.python.org/)
 
+*Other Language* : HTML, CSS, JavaScript
+
+*Module & Libarly in Python* : :panda_face:[Pandas](https://www.python.org/) ,  :triangular_ruler:[Numpy](http://www.numpy.org/), :bar_chart:[Pygal](http://pygal.org/en/stable/)
 
 ## Kuranke Team :sunny:
 
